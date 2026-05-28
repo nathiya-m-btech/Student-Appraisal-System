@@ -1,0 +1,9 @@
+pytesseract
+opencv-python
+pillow
+numpy
+pandas
+mysql-connector-python
+scikit-learn
+joblib
+scipy

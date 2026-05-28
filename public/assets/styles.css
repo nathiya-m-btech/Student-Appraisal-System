@@ -1,0 +1,22 @@
+:root{
+  --accent:#0b62d6;
+  --glass-bg: rgba(255,255,255,0.06);
+}
+body.bg-gradient{background: linear-gradient(120deg, #0b2340 0%, #0b62d6 60%); color:#eef3ff;}
+.glass-card{background:var(--glass-bg); border-radius:12px; overflow:hidden}
+.animation-col{background:linear-gradient(180deg, rgba(255,255,255,0.03), transparent);}
+.role-btn{border-radius:8px; margin-right:8px}
+.role-btn.active{background:var(--accent); color:white}
+.form-control-dark{background:rgba(0,0,0,0.3); border:1px solid rgba(255,255,255,0.06); color:#fff}
+.logo{width:64px}
+.logo-sm{width:42px}
+.sidebar{width:240px; background:#071a3a; min-height:100vh; display:flex; flex-direction:column}
+.sidebar-header{padding:20px}
+.sidebar .nav-link{color:#cfe0ff; padding:12px 20px}
+.sidebar .nav-link.active{background:linear-gradient(90deg, rgba(255,255,255,0.04), transparent); border-radius:8px}
+.content{flex:1; background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent); min-height:100vh}
+.card-glow{background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01)); border-radius:10px}
+.stat-card{border-radius:10px}
+.pass-toggle{position:absolute; right:10px; top:36px}
+.btn-primary{background:var(--accent); border:none}
+@media(max-width:900px){ .sidebar{display:none} .glass-card{width:95%} }
