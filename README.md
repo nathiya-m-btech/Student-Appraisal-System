@@ -1,4 +1,4 @@
-# Student Appraisal System (MKCE-style)
+# Student Appraisal System 
 
 Overview:
 A web-based Student Appraisal System that scores students automatically from uploaded certificates and profile data using SOP rules, AHP, TOPSIS and Random Forest.
